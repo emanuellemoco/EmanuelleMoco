@@ -23,7 +23,7 @@ public class Controller implements ActionListener, KeyListener {
 		model.update();
 		view.repaint();
 	}
-//teste
+//testeed
 	@Override
 	public void keyPressed(KeyEvent event) {
 	    if(event.getKeyCode() == KeyEvent.VK_SPACE) {

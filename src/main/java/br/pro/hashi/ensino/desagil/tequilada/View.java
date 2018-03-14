@@ -9,9 +9,9 @@ import java.net.URL;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
-// Estrutura b√°sica de um componente Swing.
+// Estrutura b·sica de um componente Swing.
 public class View extends JPanel {
-	// Estrutura b√°sica de um componente Swing.
+	// Estrutura b·sica de um componente Swing.
 	private static final long serialVersionUID = 1L;
 
 
@@ -35,8 +35,8 @@ public class View extends JPanel {
 	}
 
 
-	// M√©todo para carregar uma imagem a partir de um nome de arquivo.
-	// N√£o √© necess√°rio entender todos os detalhes nesse momento.
+	// MÈtodo para carregar uma imagem a partir de um nome de arquivo.
+	// N„o È necess·rio entender todos os detalhes nesse momento.
 	private Image loadImage(String filename) {
 		URL url = getClass().getResource("/" + filename + ".png");
 		ImageIcon icon = new ImageIcon(url);
